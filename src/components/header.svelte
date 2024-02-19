@@ -23,4 +23,4 @@
     <button>Dark</button>
 </header>
 
-<hr class="mb-2 w-full md:w-2/3" />
+<hr class="w-full md:w-2/3" />

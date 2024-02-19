@@ -8,7 +8,7 @@
 
 <section
 	id="intro"
-	class="w-full flex flex-col-reverse md:flex-row gap-8 justify-between items-center mt-8"
+	class="w-full flex flex-col-reverse md:flex-row gap-8 justify-between items-center mt-4"
 >
 	<div class="md:w-3/4">
 		<h1 class="text-4xl font-bold">Punkestu</h1>
@@ -30,7 +30,7 @@
 				Who am I
 			</div>
 		</a>
-		<a href="/blog/anime-app" class="lg:w-1/2 lg:ps-2">
+		<a href="https://anime-app-mauve.vercel.app/" class="lg:w-1/2 lg:ps-2">
 			<div
 				class="text-center px-2 py-20 border-2 hover:shadow-lg hover:shadow-white rounded-xl text-xl duration-300"
 			>
@@ -38,7 +38,7 @@
 			</div></a
 		>
 	</div>
-	<a href="/blogs" class="text-slate-300 hover:text-slate-200 duration-300"
+	<a href="/blog" class="text-slate-300 hover:text-slate-200 duration-300"
 		>Read all blogs &raquo;</a
 	>
 </section>

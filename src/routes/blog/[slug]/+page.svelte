@@ -17,7 +17,11 @@
 </script>
 
 <svelte:head>
-	<title>Punkestu | {blogData.title}</title>
+	{#if state === 'not found'}
+		<title>Punkestu | Not Found</title>
+	{:else if state === 'success'}
+		<title>Punkestu | {blogData.title}</title>
+	{/if}
 </svelte:head>
 
 {#if state !== 'success'}
