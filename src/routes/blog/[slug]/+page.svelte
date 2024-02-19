@@ -16,6 +16,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>Punkestu | {blogData.title}</title>
+</svelte:head>
+
 {#if state !== 'success'}
 	<div class="w-full h-[80vh] flex justify-center items-center">
 		{#if state === 'not found'}

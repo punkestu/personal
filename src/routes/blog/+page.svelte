@@ -2,6 +2,10 @@
 	import blogRegistry from '$lib/blogResgistry.json';
 </script>
 
+<svelte:head>
+	<title>Punkestu | Blogs</title>
+</svelte:head>
+
 <h1 class="text-4xl font-bold">Blogs</h1>
 <section id="blogs" class="mt-4 flex flex-col gap-2 min-h-[80vh]">
 	{#each blogRegistry as register}
