@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+	import logo from "$lib/image/logo.svg";
 	import Header from '../components/header.svelte';
 	import Footer from '../components/footer.svelte';
 
@@ -10,6 +11,10 @@
 		beDarkMode();
 	});
 </script>
+
+<svelte:head>
+	<link rel="shortcut icon" href={logo} type="image/x-icon">
+</svelte:head>
 
 <Header />
 
