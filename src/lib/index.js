@@ -7,9 +7,6 @@ export function toggleDarkMode() {
 }
 
 export function beDarkMode() {
-	if (!localStorage.getItem('darkMode')) {
-		localStorage.setItem('darkMode', 'true');
-	}
 	// get dark mode on local storage an save it on a variable
 	const darkMode = localStorage.getItem('darkMode') === 'true';
 	// set class dark on root html tag if dark mode is true
