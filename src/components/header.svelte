@@ -1,5 +1,29 @@
+<script>
+    import {toggleDarkMode} from "$lib/index";
+	import { onMount } from "svelte";
+    let darkState = "🌛";
+    onMount(()=>{
+        const darkMode = localStorage.getItem("darkMode") === "true";
+        if(darkMode){
+            darkState = "🌛";
+        }else{
+            darkState = "🌞";
+        }
+    
+    })
+    function darkButtonClick() {
+        const darkMode = localStorage.getItem("darkMode") === "true";
+        if(darkMode){
+            darkState = "🌞";
+        }else{
+            darkState = "🌛";
+        }
+        toggleDarkMode();
+    };
+</script>
+
 <header
-    class="w-full md:w-2/3 text-white py-4 flex justify-between"
+    class="w-full md:w-2/3 dark:text-white py-4 flex justify-between"
 >
     <nav>
         <ul class="flex gap-2 md:gap-8">
@@ -20,7 +44,7 @@
             </li>
         </ul>
     </nav>
-    <button>Dark</button>
+    <button on:click={darkButtonClick}>{darkState}</button>
 </header>
 
-<hr class="w-full md:w-2/3" />
+<hr class="w-full md:w-2/3 border border-black dark:border-slate-50" />

@@ -11,7 +11,7 @@
 	{#each blogRegistry as register}
 		<a
 			href="/blog/{register.slug}"
-			class="flex flex-col bg-slate-800 hover:bg-slate-900 duration-300 p-4 rounded-lg"
+			class="flex flex-col bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-900 duration-300 p-4 rounded-lg"
 		>
 			<div class="w-full h-44 relative">
 				<img
@@ -23,7 +23,7 @@
 				<div class="w-full h-full bg-slate-300 animate-pulse"></div>
 			</div>
 			<h2 class="text-xl font-semibold mt-2">{register.title}</h2>
-			<p class="text-sm text-slate-500 mb-2">| {register.postAt}</p>
+			<p class="text-sm dark:text-slate-500 mb-2">| {register.postAt}</p>
 		</a>
 	{/each}
 </section>

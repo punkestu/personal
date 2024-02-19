@@ -44,9 +44,9 @@
 		<div class="w-full h-full bg-slate-300 animate-pulse"></div>
 	</div>
 	<h1 class="text-4xl font-bold">{blogData.title}</h1>
-	<p class="text-slate-400">| {blogData.postAt}</p>
+	<p class="dark:text-slate-400">| {blogData.postAt}</p>
 	<hr class="mt-4 mb-6" />
-	<div class="text-justify w-full prose prose-invert max-w-full">
+	<div class="text-justify w-full prose dark:prose-invert max-w-full">
 		{@html marked(blogData.body)}
 	</div>
 {/if}

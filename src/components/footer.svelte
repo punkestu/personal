@@ -1,5 +1,5 @@
-<hr class="mt-8 w-full md:w-2/3" />
-<footer class="flex py-4 w-full md:w-2/3 gap-8 text-slate-200 justify-between">
+<hr class="mt-8 w-full md:w-2/3 border border-black dark:border-slate-50" />
+<footer class="flex py-4 w-full md:w-2/3 gap-8 dark:text-slate-200 justify-between">
 	<ul class="flex flex-col gap-2">
 		<li>
 			<a href="/" class="no-underline hover:underline">Home</a>

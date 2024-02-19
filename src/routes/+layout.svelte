@@ -2,6 +2,13 @@
 	import '../app.css';
 	import Header from '../components/header.svelte';
 	import Footer from '../components/footer.svelte';
+
+	import {beDarkMode} from "$lib/index";
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		beDarkMode();
+	});
 </script>
 
 <Header />
