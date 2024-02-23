@@ -12,5 +12,12 @@
 		"postAt": "23-02-2024",
 		"thumbnail": "https://github.com/punkestublog/2024-1/blob/main/bigio-summary-1/thumb.jpg?raw=true",
         "dir": "https://github.com/punkestublog/2024-1/blob/main/bigio-summary-1/content.md?raw=true"
+	},
+	{
+		"slug": "bigio-week-1",
+		"title": "Week 1 yang WFH",
+		"postAt": "23-02-2024",
+		"thumbnail": "https://github.com/punkestublog/2024-1/blob/main/bigio-week-1/thumb.jpg?raw=true",
+        "dir": "https://github.com/punkestublog/2024-1/blob/main/bigio-week-1/content.md?raw=true"
 	}
 ]
