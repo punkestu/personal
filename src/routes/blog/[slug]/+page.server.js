@@ -1,4 +1,4 @@
-import registry from '$lib/blogResgistry.json';
+import registry from '$lib/blogRegistry';
 /** @type {import('./$types').PageServerLoad} */
 export const load = async ({ params }) => {
 	let register = registry.find((p) => p.slug === params.slug);

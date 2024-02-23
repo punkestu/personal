@@ -4,7 +4,7 @@
 	import { marked } from 'marked';
 	import { onMount } from 'svelte';
 
-	let blogData = { title: '', body: '', postAt: '', thumbnail: '' };
+	let blogData = { title: '', body: '', postAt: new Date(), thumbnail: '' };
 	let state = 'loading';
 	onMount(async () => {
 		if (data.post) {
@@ -44,7 +44,7 @@
 		<div class="w-full h-full bg-slate-300 animate-pulse"></div>
 	</div>
 	<h1 class="text-4xl font-bold">{blogData.title}</h1>
-	<p class="dark:text-slate-400">| {blogData.postAt}</p>
+	<p class="dark:text-slate-400">| {blogData.postAt.toLocaleString().split(", ")[0]}</p>
 	<hr class="mt-4 mb-6" />
 	<div class="text-justify w-full prose dark:prose-invert max-w-full">
 		{@html marked(blogData.body)}

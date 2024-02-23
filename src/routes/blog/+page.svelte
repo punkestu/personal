@@ -1,5 +1,6 @@
 <script>
-	import blogRegistry from '$lib/blogResgistry.json';
+	import blogRegistry from '$lib/blogRegistry';
+	blogRegistry.reverse();
 </script>
 
 <svelte:head>
@@ -23,7 +24,7 @@
 				<div class="w-full h-full bg-slate-300 animate-pulse"></div>
 			</div>
 			<h2 class="text-xl font-semibold mt-2">{register.title}</h2>
-			<p class="text-sm dark:text-slate-500 mb-2">| {register.postAt}</p>
+			<p class="text-sm dark:text-slate-500 mb-2">| {register.postAt.toLocaleString().split(", ")[0]}</p>
 		</a>
 	{/each}
 </section>
