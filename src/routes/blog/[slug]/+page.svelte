@@ -3,6 +3,9 @@
 	export let data;
 	import { marked } from 'marked';
 	import { onMount } from 'svelte';
+	import blogRegistry from '$lib/blogRegistry';
+
+	let otherBlog = blogRegistry.filter((blog) => blog.slug !== data.slug).reverse()[0];
 
 	let blogData = { title: '', body: '', postAt: new Date(), thumbnail: '' };
 	let state = 'loading';
@@ -44,9 +47,19 @@
 		<div class="w-full h-full bg-slate-300 animate-pulse"></div>
 	</div>
 	<h1 class="text-4xl font-bold">{blogData.title}</h1>
-	<p class="dark:text-slate-400">| {blogData.postAt.toLocaleString().split(", ")[0]}</p>
+	<p class="dark:text-slate-400">| {blogData.postAt.toLocaleString().split(', ')[0]}</p>
 	<hr class="mt-4 mb-6" />
 	<div class="text-justify w-full prose dark:prose-invert max-w-full">
 		{@html marked(blogData.body)}
+	</div>
+
+	<div class="mt-4">
+		<h2 class="font-semibold">Other Article</h2>
+		<a
+			href="/blog/{otherBlog.slug}"
+			target="_self"
+			class="mt-2 flex px-4 py-2 border-2 border-black dark:border-white hover:shadow-lg hover:shadow-slate-800 dark:hover:shadow-white rounded-xl duration-300"
+			>{otherBlog.title}</a
+		>
 	</div>
 {/if}

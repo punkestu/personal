@@ -10,6 +10,7 @@ export const load = async ({ params }) => {
 		}
 	}
 	return {
-		post
+		post,
+		slug: params.slug,
 	};
 };
