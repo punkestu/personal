@@ -43,5 +43,9 @@
 		"title": "Oyi Sam",
         "description": "Generate slang malang",
         "url": "https://github.com/punkestu/oyi-sam"
+	},{
+		"title": "Missing Semester",
+		"description": "Missing class for computer science student",
+		"url": "https://github.com/punkestu/missing-semester"
 	}
 ]
