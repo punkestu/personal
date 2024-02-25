@@ -2,21 +2,22 @@
 	/** @type {import('./$types').PageData} */
 	export let data;
 	import { marked } from 'marked';
-	import { onMount } from 'svelte';
+	import { Render } from 'svelte-purify';
 	import blogRegistry from '$lib/blogRegistry';
 
 	let otherBlog = blogRegistry.filter((blog) => blog.slug !== data.slug).reverse()[0];
-
-	let blogData = { title: '', body: '', postAt: new Date(), thumbnail: '' };
 	let state = 'loading';
-	onMount(async () => {
-		if (data.post) {
-			blogData = data.post;
-			state = 'success';
-		} else {
-			state = 'not found';
-		}
-	});
+	/**
+	 * @type {{ title: string; thumbnail: string; postAt: Date; body: string; }}
+	 */
+	let blogData;
+
+	if (data.post) {
+		state = 'success';
+		blogData = data.post;
+	} else {
+		state = 'not found';
+	}
 </script>
 
 <svelte:head>
@@ -50,7 +51,7 @@
 	<p class="dark:text-slate-400">| {blogData.postAt.toLocaleString().split(', ')[0]}</p>
 	<hr class="mt-4 mb-6" />
 	<div class="text-justify w-full prose dark:prose-invert max-w-full">
-		{@html marked(blogData.body)}
+		<Render html={marked(blogData.body).toString()} />
 	</div>
 
 	<div class="mt-4">

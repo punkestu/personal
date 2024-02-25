@@ -24,26 +24,27 @@
 		"description": "A chrome extension that use to generate indonesian slang",
 		"url": "https://github.com/punkestu/salin-abangku-chrome "
 	},
-    {
-        "title": "Anime App Chrome Extension",
-        "description": "An extension for quick access Anime App",
-        "url": "https://github.com/punkestu/anime-app-chrome-extension"
-    },
-    {
-        "title": "Faster",
-        "description": "Fasilkom administration frontend",
-        "url": "https://github.com/punkestu/faster"
-    },
-    {
-        "title": "J-Bestie Landing Page",
-        "description": "Landing page for J-Bestie App",
-        "url": "https://github.com/punkestu/j-bestie-landing"
-    },
+	{
+		"title": "Anime App Chrome Extension",
+		"description": "An extension for quick access Anime App",
+		"url": "https://github.com/punkestu/anime-app-chrome-extension"
+	},
+	{
+		"title": "Faster",
+		"description": "Fasilkom administration frontend",
+		"url": "https://github.com/punkestu/faster"
+	},
+	{
+		"title": "J-Bestie Landing Page",
+		"description": "Landing page for J-Bestie App",
+		"url": "https://github.com/punkestu/j-bestie-landing"
+	},
 	{
 		"title": "Oyi Sam",
-        "description": "Generate slang malang",
-        "url": "https://github.com/punkestu/oyi-sam"
-	},{
+		"description": "Generate slang malang",
+		"url": "https://github.com/punkestu/oyi-sam"
+	},
+	{
 		"title": "Missing Semester",
 		"description": "Missing class for computer science student",
 		"url": "https://github.com/punkestu/missing-semester"

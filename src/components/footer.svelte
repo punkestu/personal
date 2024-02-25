@@ -1,5 +1,5 @@
 <script>
-	import logo from "$lib/image/logo.svg";
+	import logo from '$lib/image/logo.svg';
 </script>
 
 <hr class="mt-8 w-full md:w-2/3 border border-black dark:border-slate-50" />
@@ -22,13 +22,15 @@
 			>
 		</li>
 		<li>
-			<a href="https://www.linkedin.com/in/bpangestu" class="no-underline hover:underline">LinkedIn</a>
+			<a href="https://www.linkedin.com/in/bpangestu" class="no-underline hover:underline"
+				>LinkedIn</a
+			>
 		</li>
 		<li>
 			<a href="https://github.com/punkestu" class="no-underline hover:underline">Github</a>
 		</li>
 	</ul>
 	<div>
-		<img src={logo} alt="logo" class="">
+		<img src={logo} alt="logo" class="" />
 	</div>
 </footer>

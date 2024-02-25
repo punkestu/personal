@@ -18,7 +18,11 @@
 			Jember, Indonesia
 		</p>
 	</div>
-	<img src={bioImage} class="md:rounded-full w-full h-[20vh] object-cover object-top md:w-1/4 md:h-auto" alt="bio" />
+	<img
+		src={bioImage}
+		class="md:rounded-full w-full h-[20vh] object-cover object-top md:w-1/4 md:h-auto"
+		alt="bio"
+	/>
 </section>
 <section id="featured" class="w-full mt-8">
 	<h2 class="text-2xl font-semibold">Featured</h2>
@@ -38,6 +42,9 @@
 			</div></a
 		>
 	</div>
-	<a href="/blog" class="dark:text-slate-300 hover:text-slate-700 dark:hover:text-slate-200 duration-300">Read all blogs &raquo;</a
+	<a
+		href="/blog"
+		class="dark:text-slate-300 hover:text-slate-700 dark:hover:text-slate-200 duration-300"
+		>Read all blogs &raquo;</a
 	>
 </section>
