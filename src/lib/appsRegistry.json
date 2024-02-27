@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Anime App",
+		"description": "A simple app to stream anime",
+		"url": "https://anime.punkestu.tech",
+		"image": "https://github.com/punkestublog/thumbs/blob/main/anime-app/thumb-anime.webp?raw=true"
+	},
+	{
+		"name": "Missing Semester",
+		"description": "A course on the basics of computer science",
+		"url": "https://missing-semester.punkestu.tech",
+		"image": "https://github.com/punkestublog/thumbs/blob/main/missing-semester/thumb-misssem.jpg?raw=true"
+	},
+	{
+		"name": "Punkestu Blog",
+		"description": "A blog about tech and programming",
+		"url": "https://punkestu.tech/blog",
+		"image": "https://github.com/punkestublog/thumbs/blob/main/blog/thumb-blog.jpeg?raw=true"
+	},
+	{
+		"name": "Oyi Sam",
+		"description": "Simple Malang slang apps",
+		"url": "https://oyi-sam.vercel.app/",
+		"image": "https://github.com/punkestublog/thumbs/blob/main/oyisam/thumb-oyisam.png?raw=true"
+	}
+]

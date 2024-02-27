@@ -34,6 +34,9 @@
 				<a href="/project" class="no-underline hover:underline">Projects</a>
 			</li>
 			<li>
+				<a href="/app" class="no-underline hover:underline">Apps</a>
+			</li>
+			<li>
 				<a href="/blog" class="no-underline hover:underline">Blogs</a>
 			</li>
 		</ul>
