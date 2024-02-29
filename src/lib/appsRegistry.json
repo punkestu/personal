@@ -22,5 +22,11 @@
 		"description": "Simple Malang slang apps",
 		"url": "https://oyi-sam.vercel.app/",
 		"image": "https://github.com/punkestublog/thumbs/blob/main/oyisam/thumb-oyisam.png?raw=true"
+	},
+	{
+		"name": "Env Monitor",
+		"description": "A simple app to monitor environment",
+		"url": "https://monitor.punkestu.tech/",
+		"image": "https://github.com/punkestublog/thumbs/blob/main/monitor/thumb-monitor.jpeg?raw=true"
 	}
 ]
