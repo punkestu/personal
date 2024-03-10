@@ -27,5 +27,12 @@ export default [
 		postAt: new Date('2024-03-01'),
 		thumbnail: "https://github.com/punkestublog/2024-1/blob/main/bigio-week-2/thumb.png?raw=true",
 		dir: "https://github.com/punkestublog/2024-1/blob/main/bigio-week-2/content.md?raw=true"
+	},
+	{
+		slug: 'bigio-week-3',
+		title: 'First demo day',
+		postAt: new Date('2024-03-10'),
+		thumbnail: "https://github.com/punkestublog/2024-1/blob/main/bigio-week-3/thumb.jpg?raw=true",
+		dir: "https://github.com/punkestublog/2024-1/blob/main/bigio-week-3/content.md?raw=true"
 	}
 ];
