@@ -54,7 +54,7 @@
 	<div class="text-justify w-full prose dark:prose-invert max-w-full">
 		<Render
 			config={{
-				ADD_ATTR: ['target'],
+				ADD_ATTR: ['target']
 			}}
 			html={marked(blogData.body, {
 				renderer
