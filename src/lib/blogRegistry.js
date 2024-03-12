@@ -34,5 +34,12 @@ export default [
 		postAt: new Date('2024-03-10'),
 		thumbnail: "https://github.com/punkestublog/2024-1/blob/main/bigio-week-3/thumb.jpg?raw=true",
 		dir: "https://github.com/punkestublog/2024-1/blob/main/bigio-week-3/content.md?raw=true"
-	}
+	},
+  {
+    slug: 'pragprog-1',
+    title: 'Prag Prog prok prok prok #1',
+    postAt: new Date('2024-03-12'),
+    thumbnail: "https://github.com/punkestublog/2024-1/blob/main/pragprog/thumb.png?raw=true",
+    dir: "https://github.com/punkestublog/2024-1/blob/main/pragprog/part1.md?raw=true"
+  }
 ];
