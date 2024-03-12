@@ -4,6 +4,7 @@
 	import { marked } from 'marked';
 	import { Render } from 'svelte-purify';
 	import blogRegistry from '$lib/blogRegistry';
+	import renderer from '$lib/helper/markedRenderer';
 
 	let otherBlog = blogRegistry.filter((blog) => blog.slug !== data.slug).reverse()[0];
 	let state = 'loading';
@@ -51,7 +52,14 @@
 	<p class="dark:text-slate-400">| {blogData.postAt.toLocaleString().split(', ')[0]}</p>
 	<hr class="mt-4 mb-6" />
 	<div class="text-justify w-full prose dark:prose-invert max-w-full">
-		<Render html={marked(blogData.body).toString()} />
+		<Render
+			config={{
+				ADD_ATTR: ['target'],
+			}}
+			html={marked(blogData.body, {
+				renderer
+			}).toString()}
+		/>
 	</div>
 
 	<div class="mt-4">
