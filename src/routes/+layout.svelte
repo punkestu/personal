@@ -1,9 +1,7 @@
 <script>
 	import '../app.css';
 	import logo from '$lib/image/logo.svg';
-	import { toggleDarkMode } from '$lib/index';
-
-	import { beDarkMode } from '$lib/index';
+	import { toggleDarkMode, beDarkMode } from '$lib/helper/darkmode';
 	import { onMount } from 'svelte';
 
 	let darkState = '🌛';
