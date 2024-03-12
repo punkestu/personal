@@ -3,7 +3,7 @@
 	export let data;
 	import { marked } from 'marked';
 	import { Render } from 'svelte-purify';
-	import blogRegistry from '$lib/blogRegistry';
+	import blogRegistry from '$lib/data/blogRegistry';
 	import renderer from '$lib/helper/markedRenderer';
 
 	let otherBlog = blogRegistry.filter((blog) => blog.slug !== data.slug).reverse()[0];

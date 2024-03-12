@@ -1,5 +1,5 @@
 <script>
-	import appsRegistry from '$lib/appsRegistry.json';
+	import appsRegistry from '$lib/data/appsRegistry.json';
 	let search = '';
 	$: apps = appsRegistry.filter((app) => app.name.toLowerCase().includes(search.toLowerCase()));
 </script>

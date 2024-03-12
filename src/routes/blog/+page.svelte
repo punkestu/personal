@@ -1,5 +1,5 @@
 <script>
-	import blogRegistry from '$lib/blogRegistry';
+	import blogRegistry from '$lib/data/blogRegistry';
 	import { onMount } from 'svelte';
 	blogRegistry.reverse();
 	onMount(() => {

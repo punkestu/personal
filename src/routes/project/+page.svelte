@@ -1,5 +1,5 @@
 <script>
-	import projectRegistry from '$lib/featuredProject.json';
+	import projectRegistry from '$lib/data/featuredProject.json';
 </script>
 
 <svelte:head>
