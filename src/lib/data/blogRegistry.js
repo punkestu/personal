@@ -41,5 +41,12 @@ export default [
 		postAt: new Date('2024-03-12'),
 		thumbnail: 'https://github.com/punkestublog/2024-1/blob/main/pragprog/thumb.png?raw=true',
 		dir: 'https://github.com/punkestublog/2024-1/blob/main/pragprog/part1.md?raw=true'
+	},
+	{
+		slug: 'bigio-week-4',
+		title: 'Hello Kasvaa',
+		postAt: new Date('2024-03-18'),
+		thumbnail: 'https://github.com/punkestublog/2024-1/blob/main/bigio-week-4/thumb.png?raw=true',
+		dir: 'https://github.com/punkestublog/2024-1/blob/main/bigio-week-4/content.md?raw=true'
 	}
 ];
