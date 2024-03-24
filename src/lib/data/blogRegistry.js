@@ -48,5 +48,12 @@ export default [
 		postAt: new Date('2024-03-18'),
 		thumbnail: 'https://github.com/punkestublog/2024-1/blob/main/bigio-week-4/thumb.png?raw=true',
 		dir: 'https://github.com/punkestublog/2024-1/blob/main/bigio-week-4/content.md?raw=true'
+	},
+	{
+		slug: 'bigio-week-5',
+		title: 'Task pertama',
+		postAt: new Date('2024-03-24'),
+		thumbnail: 'https://github.com/punkestublog/2024-1/blob/main/bigio-week-5/thumb.webp?raw=true',
+		dir: 'https://github.com/punkestublog/2024-1/blob/main/bigio-week-5/content.md?raw=true'
 	}
 ];
