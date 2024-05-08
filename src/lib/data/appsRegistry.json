@@ -28,5 +28,11 @@
 		"description": "A simple app to monitor environment",
 		"url": "https://monitor.punkestu.tech/",
 		"image": "https://github.com/punkestublog/thumbs/blob/main/monitor/thumb-monitor.jpeg?raw=true"
+	},
+	{
+		"name": "OCR App",
+		"description": "A simple app to extract text from image using svelte + tesseractJS",
+		"url": "https://punkestu-ocr.vercel.app/",
+		"image": "https://github.com/punkestublog/thumbs/blob/main/ocr-app/Legal-Document.jpg?raw=true"
 	}
 ]

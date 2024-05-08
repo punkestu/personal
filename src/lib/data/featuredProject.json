@@ -48,5 +48,10 @@
 		"title": "Missing Semester",
 		"description": "Missing class for computer science student",
 		"url": "https://github.com/punkestu/missing-semester"
+	},
+	{
+		"title": "OCR Apps",
+		"description": "A simple app to extract text from image using svelte + tesseractJS",
+		"url": "https://github.com/punkestu/ocr-web"
 	}
 ]
