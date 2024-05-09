@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Javascript",
+        "color": "ccaa30",
+        "logo": "javascript"
+    },
+    {
+        "name": "Typescript",
+        "color": "3178c6",
+        "logo": "typescript"
+    },
+    {
+        "name": "NodeJS",
+        "color": "026e00",
+        "logo": "node.js"
+    },
+    {
+        "name": "Laravel",
+        "color": "ff2d20",
+        "logo": "laravel"
+    },
+    {
+        "name": "c%23",
+        "color": "239120",
+        "logo": "csharp"
+    },
+    {
+        "name": ".NET",
+        "color": "512bd4",
+        "logo": "dotnet"
+    },
+    {
+        "name": "Go",
+        "color": "00add8",
+        "logo": "go"
+    },
+    {
+        "name": "Rust",
+        "color": "b7410e",
+        "logo": "rust"
+    },
+    {
+        "name": "Svelte",
+        "color": "ff3e00",
+        "logo": "svelte"
+    },
+    {
+        "name": "React",
+        "color": "00add8",
+        "logo": "react"
+    },
+    {
+        "name": "Git",
+        "color": "f05032",
+        "logo": "git"
+    },
+    {
+        "name": "MySQL",
+        "color": "00758f",
+        "logo": "mysql"
+    },
+    {
+        "name": "Postgresql",
+        "color": "336791",
+        "logo": "postgresql"
+    },
+    {
+        "name": "MongoDB",
+        "color": "47a248",
+        "logo": "mongodb"
+    },
+    {
+        "name": "Docker",
+        "color": "2496ed",
+        "logo": "docker"
+    }
+]

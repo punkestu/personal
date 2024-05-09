@@ -1,5 +1,6 @@
 <script>
 	import bioImage from '$lib/image/bio.png';
+	import workWith from '$lib/data/workWith.json';
 </script>
 
 <svelte:head>
@@ -8,14 +9,17 @@
 
 <section
 	id="intro"
-	class="w-full flex flex-col-reverse md:flex-row gap-8 justify-between items-center mt-4"
+	class="w-full flex flex-col-reverse md:flex-row gap-8 justify-between md:items-center mt-4"
 >
-	<div class="md:w-3/4">
+	<div class="xl:w-3/4">
 		<h1 class="text-4xl font-bold">Punkestu</h1>
 		<h2>Moch. Bima Pangestu</h2>
 		<p class="dark:text-slate-400 mt-2">
-			Computer Science Entusiast, Fullstack Developer, NodeJS | Express | Typescript, Banyuwangi |
-			Jember, Indonesia
+			Computer Science Entusiast | Fullstack Developer
+			<br>
+			Banyuwangi | Jember | Yogyakarta
+			<br>
+			Indonesia 🇮🇩️
 		</p>
 	</div>
 	<img
@@ -23,6 +27,17 @@
 		class="md:rounded-full w-full h-[20vh] object-cover object-top md:w-1/4 md:h-auto"
 		alt="bio"
 	/>
+</section>
+<section class="w-full mt-4">
+	<h2 class="text-2xl font-semibold">Work with</h2>
+	<div class="flex flex-wrap gap-2 mt-2">
+		{#each workWith as item}
+			<img
+				src={`https://img.shields.io/badge/${item.name}-${item.color}?style=for-the-badge&logo=${item.logo}&logoColor=white`}
+				alt={item.name}
+			/>
+		{/each}
+	</div>
 </section>
 <section id="featured" class="w-full mt-8">
 	<h2 class="text-2xl font-semibold">Featured</h2>
