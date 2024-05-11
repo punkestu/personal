@@ -1,7 +1,11 @@
 <script>
 	import appsRegistry from '$lib/data/appsRegistry.json';
 	let search = '';
-	$: apps = appsRegistry.filter((app) => app.name.toLowerCase().includes(search.toLowerCase()));
+	$: apps = appsRegistry.filter(
+		(app) =>
+			app.name.toLowerCase().includes(search.toLowerCase()) ||
+			app.description.toLowerCase().includes(search.toLowerCase())
+	);
 </script>
 
 <svelte:head>
