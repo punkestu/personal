@@ -53,5 +53,10 @@
 		"title": "OCR Apps",
 		"description": "A simple app to extract text from image using svelte + tesseractJS",
 		"url": "https://github.com/punkestu/ocr-web"
+	},
+	{
+		"title": "img compressor",
+		"description": "A simple image compressor using svelte + compressJS",
+		"url": "https://github.com/punkestu/img-compressor"
 	}
 ]

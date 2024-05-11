@@ -34,5 +34,11 @@
 		"description": "A simple app to extract text from image using svelte + tesseractJS",
 		"url": "https://punkestu-ocr.vercel.app/",
 		"image": "https://github.com/punkestublog/thumbs/blob/main/ocr-app/Legal-Document.jpg?raw=true"
+	},
+	{
+		"name": "Kompres Foto",
+		"description": "A simple app to compress image using svelte + compressJS",
+		"url": "https://kompresfoto.vercel.app/",
+		"image": "https://github.com/punkestublog/thumbs/blob/main/kompresfoto/images.png?raw=true"
 	}
 ]
