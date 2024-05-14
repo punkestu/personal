@@ -58,5 +58,10 @@
 		"title": "img compressor",
 		"description": "A simple image compressor using svelte + compressJS",
 		"url": "https://github.com/punkestu/img-compressor"
+	},
+	{
+		"title": "Teleprompter",
+		"description": "A simple app to record video with a teleprompter",
+		"url": "https://github.com/punkestu/teleprompter"
 	}
 ]

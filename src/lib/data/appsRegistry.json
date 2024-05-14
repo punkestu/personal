@@ -40,5 +40,11 @@
 		"description": "A simple app to compress image using svelte + compressJS",
 		"url": "https://kompresfoto.vercel.app/",
 		"image": "https://github.com/punkestublog/thumbs/blob/main/kompresfoto/images.png?raw=true"
+	},
+	{
+		"name": "Teleprompter",
+		"description": "A simple app to record video with a teleprompter",
+		"url": "https://teleprompter-seven.vercel.app/",
+		"image": "https://github.com/punkestublog/thumbs/blob/main/teleprompter/teleprompter.jpeg?raw=true"
 	}
 ]
