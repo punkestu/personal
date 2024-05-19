@@ -4,6 +4,10 @@
 	import { toggleDarkMode, beDarkMode } from '$lib/helper/darkmode';
 	import { onMount } from 'svelte';
 
+	let mail = {
+		subject: "Hello, I'm interested in your work",
+		body: "Hi, I'm interested in your work. Can you tell me more about it?"
+	}
 	let darkState = '🌛';
 	onMount(() => {
 		if (!localStorage.getItem('darkMode')) {
@@ -69,6 +73,9 @@
 			<a href="/project" class="no-underline hover:underline">Projects</a>
 		</li>
 		<li>
+			<a href="/app" class="no-underline hover:underline">Apps</a>
+		</li>
+		<li>
 			<a href="/blog" class="no-underline hover:underline">Blogs</a>
 		</li>
 	</ul>
@@ -85,6 +92,9 @@
 		</li>
 		<li>
 			<a href="https://github.com/punkestu" class="no-underline hover:underline">Github</a>
+		</li>
+		<li>
+			<a href="mailto:pangestubima89@gmail.com?subject={mail.subject}&body={mail.body}" class="no-underline hover:underline">Mail me</a>
 		</li>
 	</ul>
 	<div>
