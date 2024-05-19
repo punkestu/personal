@@ -14,13 +14,17 @@
 	<div class="xl:w-3/4">
 		<h1 class="text-4xl font-bold">Punkestu</h1>
 		<h2>Moch. Bima Pangestu</h2>
-		<p class="dark:text-slate-400 mt-2">
+		<p class="dark:text-slate-400 my-2">
 			Computer Science Entusiast | Fullstack Developer
-			<br>
+			<br />
 			Banyuwangi | Jember | Yogyakarta
-			<br>
+			<br />
 			Indonesia 🇮🇩️
 		</p>
+		<a
+			class="mt-2 text-center px-4 py-1 border-2 border-black dark:border-white hover:shadow-md hover:shadow-slate-800 dark:hover:shadow-white rounded-xl duration-300"
+			href="/cv">Resume</a
+		>
 	</div>
 	<img
 		src={bioImage}
