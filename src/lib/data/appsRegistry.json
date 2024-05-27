@@ -46,5 +46,11 @@
 		"description": "A simple app to record video with a teleprompter",
 		"url": "https://teleprompter-seven.vercel.app/",
 		"image": "https://github.com/punkestublog/thumbs/blob/main/teleprompter/teleprompter.jpeg?raw=true"
+	},
+	{
+		"name": "Budgeter",
+		"description": "A simple budgeting app",
+		"url": "https://budgeter.vercel.app/",
+		"image": "https://github.com/punkestublog/thumbs/blob/main/budgeter/Budget.jpg?raw=true"
 	}
 ]
