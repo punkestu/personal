@@ -68,5 +68,10 @@
 		"title": "Air Mutasi",
 		"description": "A frontend for track flight personeel mutation app",
 		"url": "https://github.com/punkestu/air-mutasi"
+	},
+	{
+		"title": "SIPIDAR",
+		"description": "Sistem Informasi Peminjaman Kendaraan",
+		"url": "https://github.com/punkestu/sipidar"
 	}
 ]
