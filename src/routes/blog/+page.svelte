@@ -12,13 +12,13 @@
 </svelte:head>
 
 <h1 class="text-4xl font-bold">Blogs</h1>
-<section id="blogs" class="mt-4 flex flex-col gap-2 min-h-[70vh]">
+<section id="blogs" class="mt-4 flex flex-col sm:flex-row sm:flex-wrap gap-2 min-h-[70vh]">
 	{#each blogRegistry as register}
 		<a
 			href="/blog/{register.slug}"
-			class="flex flex-col bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-900 duration-300 p-4 rounded-lg"
+			class="flex flex-col bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-900 duration-300 p-4 rounded-lg flex-grow"
 		>
-			<div class="w-full h-44 relative">
+			<div class="w-full aspect-square relative">
 				<img
 					src={register.thumbnail}
 					class="absolute w-full top-0 left-0 h-full object-cover z-50"
