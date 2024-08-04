@@ -55,5 +55,12 @@ export default [
 		postAt: new Date('2024-03-24'),
 		thumbnail: 'https://github.com/punkestublog/2024-1/blob/main/bigio-week-5/thumb.webp?raw=true',
 		dir: 'https://github.com/punkestublog/2024-1/blob/main/bigio-week-5/content.md?raw=true'
+	},
+	{
+		slug: 'kopi-ijen-bondowoso',
+		title: 'Kopi Ijen Bondowoso',
+		postAt: new Date('2024-08-04'),
+		thumbnail: 'https://github.com/punkestublog/thumbs/blob/main/blog/kopi-bondowoso.jpg?raw=true',
+		dir: 'https://github.com/punkestu/2024-2/blob/main/kopi-ijen-bondowoso.md?raw=true'
 	}
 ];
