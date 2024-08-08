@@ -62,5 +62,19 @@ export default [
 		postAt: new Date('2024-08-04'),
 		thumbnail: 'https://github.com/punkestublog/thumbs/blob/main/blog/kopi-bondowoso.jpg?raw=true',
 		dir: 'https://github.com/punkestu/2024-2/blob/main/kopi-ijen-bondowoso.md?raw=true'
+	},
+	{
+		slug: 'artikel-kkn-ecofeed',
+		title: 'Inovasi Pakan Fermentasi \'Ecofeed\' Membantu Peternak Desa Mengen Atasi Krisis Pakan',
+		postAt: new Date('2024-08-08'),
+		thumbnail: 'https://github.com/punkestublog/thumbs/blob/main/blog/ecofeed.webp?raw=true',
+		dir: 'https://github.com/punkestu/2024-2/blob/main/artikel-kkn-ecofeed.md?raw=true'
+	},
+	{
+		slug: 'artikel-kkn-ecoboost',
+		title: 'Dari Limbah Ternak ke Pupuk Berkualitas: Desa Mengen Sambut Era Baru dengan \'Ecoboost\'',
+		postAt: new Date('2024-08-08'),
+		thumbnail: 'https://github.com/punkestublog/thumbs/blob/main/blog/ecoboost.webp?raw=true',
+		dir: 'https://github.com/punkestu/2024-2/blob/main/artikel-kkn-ecoboost.md?raw=true'
 	}
 ];
