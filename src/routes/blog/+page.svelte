@@ -16,9 +16,9 @@
 	{#each blogRegistry as register}
 		<a
 			href="/blog/{register.slug}"
-			class="flex flex-col bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-900 duration-300 p-4 rounded-lg flex-grow"
+			class="flex flex-col bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-900 duration-300 p-4 rounded-lg flex-grow md:max-w-[calc(50%-0.25rem)]"
 		>
-			<div class="w-full aspect-square relative">
+			<div class="w-full h-48 relative">
 				<img
 					src={register.thumbnail}
 					class="absolute w-full top-0 left-0 h-full object-cover z-50"
