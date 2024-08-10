@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+	import { env } from "$env/dynamic/public";
 	import logo from '$lib/image/logo.svg';
 	import { toggleDarkMode, beDarkMode } from '$lib/helper/darkmode';
 	import { onMount } from 'svelte';
@@ -50,7 +51,7 @@
 				<a href="/app" class="no-underline hover:underline">Apps</a>
 			</li>
 			<li>
-				<a href="/blog" class="no-underline hover:underline">Blogs</a>
+				<a href="{env.PUBLIC_BLOG_URL}" class="no-underline hover:underline">Blogs</a>
 			</li>
 		</ul>
 	</nav>
