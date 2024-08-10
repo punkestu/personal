@@ -7,7 +7,7 @@
 	let mail = {
 		subject: "Hello, I'm interested in your work",
 		body: "Hi, I'm interested in your work. Can you tell me more about it?"
-	}
+	};
 	let darkState = '🌛';
 	onMount(() => {
 		if (!localStorage.getItem('darkMode')) {
@@ -54,7 +54,12 @@
 			</li>
 		</ul>
 	</nav>
-	<button on:click={darkButtonClick}>{darkState}</button>
+	<aside class="flex gap-2">
+		<a class="px-2 py-1 bg-yellow-500 text-gray-700" href="https://saweria.co/bpangestu"
+			>Beliin kopi ☕️</a
+		>
+		<button on:click={darkButtonClick}>{darkState}</button>
+	</aside>
 </header>
 
 <hr class="w-full md:w-2/3 border border-black dark:border-slate-50" />
@@ -94,7 +99,10 @@
 			<a href="https://github.com/punkestu" class="no-underline hover:underline">Github</a>
 		</li>
 		<li>
-			<a href="mailto:pangestubima89@gmail.com?subject={mail.subject}&body={mail.body}" class="no-underline hover:underline">Mail me</a>
+			<a
+				href="mailto:pangestubima89@gmail.com?subject={mail.subject}&body={mail.body}"
+				class="no-underline hover:underline">Mail me</a
+			>
 		</li>
 	</ul>
 	<div>
