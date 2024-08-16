@@ -50,7 +50,7 @@
 	{
 		"name": "SFX-Panels",
 		"description": "A simple app to play sound effects",
-		"url": "https://sfx-panels.vercel.app/",
+		"url": "https://sfx-pad.vercel.app/",
 		"image": "https://github.com/punkestublog/thumbs/blob/main/apps/sfx-pad.jpg?raw=true"
 	}
 ]
