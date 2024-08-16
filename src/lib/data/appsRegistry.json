@@ -12,12 +12,6 @@
 		"image": "https://github.com/punkestublog/thumbs/blob/main/missing-semester/thumb-misssem.jpg?raw=true"
 	},
 	{
-		"name": "Punkestu Blog",
-		"description": "A blog about tech and programming",
-		"url": "https://punkestu.tech/blog",
-		"image": "https://github.com/punkestublog/thumbs/blob/main/blog/thumb-blog.jpeg?raw=true"
-	},
-	{
 		"name": "Oyi Sam",
 		"description": "Simple Malang slang apps",
 		"url": "https://oyi-sam.vercel.app/",
@@ -52,5 +46,11 @@
 		"description": "A simple budgeting app",
 		"url": "https://budgeter.vercel.app/",
 		"image": "https://github.com/punkestublog/thumbs/blob/main/budgeter/Budget.jpg?raw=true"
+	},
+	{
+		"name": "SFX-Panels",
+		"description": "A simple app to play sound effects",
+		"url": "https://sfx-panels.vercel.app/",
+		"image": "https://github.com/punkestublog/thumbs/blob/main/apps/sfx-pad.jpg?raw=true"
 	}
 ]
