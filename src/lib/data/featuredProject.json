@@ -66,12 +66,22 @@
 	},
 	{
 		"title": "Air Mutasi",
-		"description": "A frontend for track flight personeel mutation app",
+		"description": "A frontend for track flight personel mutation app",
 		"url": "https://github.com/punkestu/air-mutasi"
 	},
 	{
 		"title": "SIPIDAR",
 		"description": "Sistem Informasi Peminjaman Kendaraan",
 		"url": "https://github.com/punkestu/sipidar"
+	},
+	{
+		"title": "Money Flow",
+		"description": "A self wallets manager apps",
+		"url": "https://github.com/punkestu/ledger-react"
+	},
+	{
+		"title": "E-Quiz Apps",
+		"description": "Quiz apps template created for olimpiade",
+		"url": "https://github.com/punkestu/olimpiade-laravel"
 	}
 ]
