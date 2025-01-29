@@ -52,5 +52,11 @@
 		"description": "A simple app to play sound effects",
 		"url": "https://sfx-pad.vercel.app/",
 		"image": "https://github.com/punkestublog/thumbs/blob/main/apps/sfx-pad.jpg?raw=true"
+	},
+	{
+		"name": "Deposito Calculator",
+		"description": "A simple app to calculate deposito profit",
+		"url": "https://deposito-calculator.vercel.app/",
+		"image": "https://github.com/punkestublog/thumbs/blob/main/deposito-calculator/pengertian-finance.jpg?raw=true"
 	}
 ]
